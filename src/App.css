@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@layer base{
+  *{
+    box-sizing: border-box;
+    
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0; padding: 0;
+    overflow-x: hidden;
   }
-  to {
-    transform: rotate(360deg);
+
+  body{
+    font-family: 'Red Rose', cursive;
+
   }
+  
+  
+}
+
+@layer components{
+  .btn{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  }
+  
+  .span{
+    background: linear-gradient(90deg, #A02279  11.45%, #A02279 11.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+  }
+
+  .search-btn{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  }
+
+  .mid{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  }
+
+  .card{
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  }
+
+  .nfts{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  }
+
+  .NFT-btn{
+    background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+  }
+  
+  .learn-more{
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+
 }
