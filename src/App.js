@@ -31,14 +31,14 @@ function App() {
         <img src={Metabnb} alt='Logo' style={{width: '60%'}}/>
       </div>
 
-      <ul className='hidden md:flex justify-center items-center'>
+      <ul className='hidden md:flex gap-8 justify-center items-center'>
         
         <Link to='/'><li>Home</li></Link>
        <Link to='/place'><li>Place to stay</li></Link>
         <li>NFTs</li>
         <li>Community</li>
         
-        </ul>
+      </ul>
 
         <div className=' hidden md:flex '>
         <button onClick={() => setShowModal(true)} className=' px-[22px] py-[10px] bg-gradient-to-r from-[#A02279] to-[#A02279] text-[#ffffff] rounded-lg'>Connect wallet</button>
