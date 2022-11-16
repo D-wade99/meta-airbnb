@@ -20,29 +20,29 @@ function Footer(props) {
             <div>
                 <ul>
                     <li className='font-bold text-lg py-2'>Community</li>
-                    <li>NFTS</li>
-                    <li>Tokens</li>
-                    <li>Landlords</li>
-                    <li>Discord</li>
+                    <li className="py-2" >NFTS</li>
+                    <li className="py-2" >Tokens</li>
+                    <li className="py-2" >Landlords</li>
+                    <li className="py-2" >Discord</li>
                 </ul>
             </div>
             <div>
                <ul>
                     <li className='font-bold text-lg py-2'>Places</li>
-                    <li>Castle</li>
-                    <li>Farm</li>
-                    <li>Beach</li>
-                    <li>Learn more</li>
+                    <li className="py-2" >Castle</li>
+                    <li className="py-2" >Farm</li>
+                    <li className="py-2" >Beach</li>
+                    <li className="py-2" >Learn more</li>
                 </ul> 
             </div>
                 
             <div>
                <ul>
                     <li className='font-bold text-lg py-2'>About us</li>
-                    <li>Road map</li>
-                    <li>Creators</li>
-                    <li>Career</li>
-                    <li>Contact us</li>
+                    <li className="py-2" >Road map</li>
+                    <li className="py-2" >Creators</li>
+                    <li className="py-2" >Career</li>
+                    <li className="py-2" >Contact us</li>
 
                 </ul> 
             </div>

@@ -21,24 +21,24 @@ return (
             <div className='flex flex-col justify-center'>
                 <h1 className='text-4xl md:text-5xl'>Rent a <span className='span'>Place</span> away from <span className='span'>Home</span> in the <span className='span'>Metaverse</span></h1>
                 <p className='text-lg md:text-xl py-4'>we provide you access to luxury and affordable houses in the metaverse,  get a chance to turn your imagination to reality at your comfort zone </p>
-                <div className='border-[1px] border-[#A3A3A3] flex justify-between rounded-lg mt-2 max-[425px]:grid max-[425px]:grid-cols-1 '>
-                    <input className='p-2'type='text' placeholder='Search for a location' />
-                    <button className='px-[45px] py-[10px] bg-gradient-to-r from-[#A02279] to-[#A02279] text-[#ffffff] max-[425px]:rounded-lg '>Search</button>
+                <div className='border-[1px] border-[#A3A3A3] flex justify-between rounded-lg mt-2  '>
+                    <input className='p-2 shrink max-[420px]:w-[200px]'type='text' placeholder='Search for a location' />
+                    <button className='px-[45px] py-[10px] bg-gradient-to-r from-[#A02279] to-[#A02279] text-[#ffffff] '>Search</button>
                 </div>
             </div>
             <div  className=' flex justify-center items-center py-6' >
                 <img src={group} alt='/'/>
             </div>
         </div>
-        <div className='mid flex justify-around items-center h-[70px] w-screen mb-[35px] max-[500px]:flex-col max-[500px]:h-[180px] '>
-            <img src={token} alt='//' className='w-[223px] h-[50px] ' />
-            <img src={Meta} alt='//' className='w-[223px] h-[50px] ' />
-            <img src={openSea} alt='//' className='w-[223px] h-[50px] ' />
+        <div className='bg-gradient-to-r from-[#A02279] to-[#A02279] h-16 flex justify-between items-center px-8  '>
+            <img src={token} alt='//' className='w-24 md:w-32 ' />
+            <img src={Meta} alt='//' className='w-24 md:w-32 ' />
+            <img src={openSea} alt='//' className='w-24 md:w-32  ' />
         </div>
         <div className=' flex justify-center items-center text-center mt-[39px] mb-[43px] '>
             <p className='text-[48px] font-bold '>Inspiration for your next adventure</p>
         </div>
-        <div   className='grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-4 px-8' >
+        <div   className='grid grid-cols-2 md:grid-cols-4 grid-rows-2 gap-4 px-8 pb-8' >
             <img src={property1} alt='property' />
             <img src={property2} alt='property' />
             <img src={property3} alt='property' />
