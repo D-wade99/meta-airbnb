@@ -20,8 +20,8 @@ import sixteen from '../assets/building-16.png'
 
 const Place = () => {
   return (
-    <div className='w-full px-8 mt-[127px]'>
-      <div className='mb-[75px]'>
+    <div className='w-full px-8 mt-[100px]'>
+      <div className='mb-[50px]'>
         <ul className='hidden md:flex justify-center items-center gap-x-[55px]'>
             <li>Restaurant</li>
             <li>Cottage</li>
