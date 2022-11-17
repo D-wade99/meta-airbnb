@@ -21,8 +21,8 @@ import sixteen from '../assets/building-16.png'
 const Place = () => {
   return (
     <div className='w-full px-8 mt-[127px]'>
-      <div>
-        <ul className='hidden md:flex justify-center items-center gap-x-[48px]'>
+      <div className='mb-[75px]'>
+        <ul className='hidden md:flex justify-center items-center gap-x-[55px]'>
             <li>Restaurant</li>
             <li>Cottage</li>
             <li>Castle</li>
@@ -35,7 +35,7 @@ const Place = () => {
         </ul>
       </div>
 
-      <div className='grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 gap-4 py-6 mt-[75px]'>
+      <div className='grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 gap-4 py-6 '>
             <img src={one} alt='/' />
             <img src={two} alt='/' />
             <img src={three} alt='/' />
