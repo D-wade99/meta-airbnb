@@ -35,7 +35,7 @@ const Place = () => {
         </ul>
       </div>
 
-      <div className='grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 gap-4 py-6'>
+      <div className='grid grid-cols-2 md:grid-cols-4 md:grid-rows-4 gap-4 py-6 mt-[75px]'>
             <img src={one} alt='/' />
             <img src={two} alt='/' />
             <img src={three} alt='/' />
